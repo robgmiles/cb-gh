@@ -26,6 +26,8 @@ Photographs from the EAP collections:
 
 This page has been used for testing some additional display features available with CollectionBuilder. All pages can be customised, and you can also create new pages, for example you could add a 'Blog' or 'Resources' page, which can also be added to the site navigation menu.
 
+Some of the collection metadata has been changed to better demonstrate features such as the timeline below. 
+
 {% include feature/timelinejs.html %}
 
 {% include feature/card.html header="This is a Card" text="text description underneath" objectid="eap755_1_1_28_6" width="25" centered=true %}
