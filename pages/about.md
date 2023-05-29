@@ -3,25 +3,40 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid="eap755_1_1_28_4" %} 
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
-## About the Collection
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+## About this website
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+This demo collection features items from the British Library's [Endangered Archives Programme](https://eap.bl.uk).
+ 
+Photographs from the EAP collections:
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+- EAP001: Iran
+- EAP755: Argentina
+- EAP894: Bulgaria
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+
+{% include feature/card.html header="This is a Card" text="text description underneath" objectid="eap755_1_1_28_6" width="25" centered=true %}
+
+{% include feature/button.html text="Full EAP website" link="https://eap.bl.uk" color="success" %}
+
+{% include feature/modal.html button="Modal that displays other text as a popup" title="Message popup:" text="More info given here" color="primary" %}
+
+{% include feature/image.html objectid="eap755_1_1_28_5" width="75" caption="an image" %}
+
+
+{% include feature/image.html objectid="eap755_1_1_28_2" width="75" alt="EAP image" %}
+
+{% include feature/image.html objectid="eap894_1_9_50;eap755_1_1_28_2;eap755_1_1_1_2" %}
+
+{% include feature/image.html objectid="eap755_1_1_28_2;eap755_1_1_28_7" caption="EAP755;EAP755" link="https://eap.bl.uk/project/eap755" alt="Link back to EAP website;Link back to EAP website" %}
+
+{% include feature/timelinejs.html %}
