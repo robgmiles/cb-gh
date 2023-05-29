@@ -40,10 +40,10 @@ metadata: psychiana-demo
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #
-# organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-# organization-link: https://cdil.lib.uidaho.edu/
-# organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-# organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-name: "Endangered Archives Programme"
+organization-link: https://eap.bl.uk
+organization-logo-banner: https://www.gouldgenealogy.com/wp-content/uploads/2013/12/logo-British-Library.jpg
+organization-logo-nav: https://www.gouldgenealogy.com/wp-content/uploads/2013/12/logo-British-Library.jpg
 
 
 
