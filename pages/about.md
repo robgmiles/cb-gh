@@ -30,6 +30,8 @@ Some of the collection metadata has been changed to better demonstrate features 
 
 {% include feature/timelinejs.html %}
 
+{% include feature/pdf.html objectid="https://eap.bl.uk/sites/default/files/eap-french-flyer-print.pdf" width="50" caption="PDFs can also be collection items, or embedded from external websites like this PDF hosted on the EAP website" %}
+
 {% include feature/card.html header="This is a Card" text="text description underneath" objectid="eap755_1_1_28_6" width="25" centered=true %}
 
 {% include feature/modal.html button="Modal that displays other text as a popup" title="Message popup:" text="More info given here" color="primary" %}
